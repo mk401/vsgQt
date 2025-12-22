@@ -57,7 +57,6 @@ set_target_properties(vsgQt
     PROPERTIES
         VERSION ${VSGQT_VERSION}
         SOVERSION ${VSGQT_SOVERSION}
-        CXX_STANDARD 17
 )
 
 target_include_directories(vsgQt
