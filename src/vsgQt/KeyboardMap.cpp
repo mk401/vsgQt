@@ -61,7 +61,7 @@ KeyboardMap::KeyboardMap() :
         {'_', vsg::KEY_Underscore},
         {0xc0, vsg::KEY_Backquote},
 
-        {Qt::Key_Back, vsg::KEY_BackSpace}, /* back space, back char */
+        {Qt::Key_Backspace, vsg::KEY_BackSpace}, /* back space, back char */
         {Qt::Key_Tab, vsg::KEY_Tab},
         {Qt::Key_Backtab, vsg::KEY_Tab},
         //    KEY_Linefeed = 0xFF0A, /* Linefeed, LF */
